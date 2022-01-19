@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/math-training-app/static/js/main.88d08f8e.js",
+    "main.js": "/math-training-app/static/js/main.cb11a2e3.js",
     "static/js/845.b61f2a3c.chunk.js": "/math-training-app/static/js/845.b61f2a3c.chunk.js",
     "static/media/ding_sound.mp3": "/math-training-app/static/media/ding_sound.47d6a6632fe5250fd2c0.mp3",
     "index.html": "/math-training-app/index.html",
-    "main.88d08f8e.js.map": "/math-training-app/static/js/main.88d08f8e.js.map",
+    "main.cb11a2e3.js.map": "/math-training-app/static/js/main.cb11a2e3.js.map",
     "845.b61f2a3c.chunk.js.map": "/math-training-app/static/js/845.b61f2a3c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.88d08f8e.js"
+    "static/js/main.cb11a2e3.js"
   ]
 }
