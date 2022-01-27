@@ -1,12 +1,16 @@
 stages:
   - build
+  - deploy
 
-build:
-  image: node:latest
-  stage: build
-  script:
-    - yarn install
-    - yarn build
-  artifacts:
-    paths:
-      - build/
+build:  
+  pages:
+    image: alpine:latest
+    stage: deploy
+    variables:
+      PUBLIC_URL: https://hangerthem.gitlab.io/math-training-app/ 
+      GIT_STRATEGY: none
+    script:
+      - mv build public         
+    artifacts:
+      paths:
+        - public
